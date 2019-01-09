@@ -18,8 +18,8 @@
 
 require_once('./LINEBotTiny.php');
 
-$channelAccessToken = '<your channel access token>';
-$channelSecret = '<your channel secret>';
+$channelAccessToken = 'Dmq1hDEyi7LHI8MYzTDC4aljxLt1eu8H6t3bpwgZVZluBhWu+/jsbb6bITP57MYW3+GCcMwvJ2d3Yh5Ck7ifRvw4coVIgwFJRG0H2iRAAU8yU+y4dZVf3lS/drpzTGfOkLUmQAQ50itVR/HuL05DsAdB04t89/1O/w1cDnyilFU=';
+$channelSecret = 'c129134482dfecd9c4a05384eb535b1b';
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 foreach ($client->parseEvents() as $event) {
